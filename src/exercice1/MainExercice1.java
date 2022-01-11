@@ -14,7 +14,7 @@ public class MainExercice1 {
         // A COMPLETER
         List<String> dataTxt = TxtHelper.getDataFromTxt("persons.txt");
         for (String line : dataTxt) {
-            Person p = new Person(firstName, lastName, birthDate, gender, cityofResidence, cityOfBirth);
+            //Person p = new Person(firstName, lastName, birthDate, gender, cityofResidence, cityOfBirth);
         }
         return new ArrayList<Person>();
     }

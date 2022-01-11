@@ -1,11 +1,13 @@
 package exercice2.models;
 
+import java.io.FileNotFoundException;
+
 public interface Exo2 {
 
     /**
      * Display all the person born in Chambéry
      */
-    void displayPersonFromChambery();
+    void displayPersonFromChambery() throws FileNotFoundException;
 
     /**
      * Display all the person older than 25 years old
